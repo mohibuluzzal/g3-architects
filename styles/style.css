@@ -1,0 +1,127 @@
+/* google font embed
+================== */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+
+/* shared styles
+============= */
+ .text-45{
+    font-size: 2rem;
+    font-weight: 700;
+ }
+ .text-18{
+    font-size: 1rem;
+    font-weight: 500;
+ }
+.text-64{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.text-16{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.text-20{
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.dark-01{
+    color: #131313;
+}
+.dark-02{
+    color: #424242;
+}
+.dark-03{
+    color: #727272;
+}
+.font-orange{
+    color: #FF900E;
+}
+.font-white{
+    color: white;
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.common-margin{
+    max-width: 1200px;
+}
+.second-margin{
+    max-width: 1100px;
+}
+.display-flex{
+    display: flex;
+}
+/* nav section style
+================= */
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    text-decoration: none;
+}
+.common-button{
+    background-color: rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 16px 20px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+/* banner section style
+==================== */
+.banner{
+    margin: 0 auto;
+}
+.banner-container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.banner-img img{
+    width: 100%;
+}
+
+
+
+/* media query or responsive styles
+================================ */
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-container{
+        margin-top: 50px;
+    }
+    .banner-container p{
+        font-size: 1.1rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
